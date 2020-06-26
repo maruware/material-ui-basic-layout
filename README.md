@@ -7,7 +7,7 @@ Simple Basic Layout using Material UI
 ## Install
 
 ```
-yarn add @maruware/materail-ui-basic-layout
+yarn add @maruware/material-ui-basic-layout
 ```
 
 ## Usage
