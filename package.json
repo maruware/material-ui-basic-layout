@@ -1,0 +1,36 @@
+{
+  "name": "@maruware/material-ui-basic-layout",
+  "version": "0.0.1",
+  "description": "material ui basic layout",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepare": "npm run clean && npm run build",
+    "postinstall": "postinstall-build dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maruware/material-ui-basic-layout.git"
+  },
+  "author": "maruware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maruware/material-ui-basic-layout/issues"
+  },
+  "homepage": "https://github.com/maruware/material-ui-basic-layout#readme",
+  "devDependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "@types/react": "^16.9.41",
+    "postinstall-build": "^5.0.3",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@maruware/material-ui-hooks": "^0.0.2"
+  }
+}
