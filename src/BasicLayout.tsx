@@ -101,6 +101,7 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(1),
       paddingTop: 64 + theme.spacing(1),
       flexGrow: 1,
+      backgroundColor: theme.palette.background.default
     },
     logo: {
       height: 28,
